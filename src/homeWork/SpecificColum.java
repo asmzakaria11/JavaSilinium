@@ -17,8 +17,6 @@ public class SpecificColum {
         exe.executeScript("window.scrollBy(0,4000);");
 
         WebElement drv =driver.findElement(By.xpath("//ul[@class='k_a ax_a']"));
-
-
         System.out.println(drv.getText());
 
         

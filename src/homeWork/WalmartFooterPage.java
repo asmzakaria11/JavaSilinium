@@ -12,9 +12,8 @@ public class WalmartFooterPage {
         WebDriver driver = new ChromeDriver();
         driver.get("https://walmart.com");
 
-
        JavascriptExecutor scriptdown= (JavascriptExecutor) driver;
-        scriptdown.executeScript("window.scrollBy(0,4000);");
+       scriptdown.executeScript("window.scrollBy(0,4000);");
 
       WebElement drv = driver.findElement(By.xpath("//div[@id='js-global-footer-wrapper']"));
       System.out.println(drv.getText());
